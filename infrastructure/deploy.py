@@ -134,7 +134,6 @@ if __name__ == "__main__":
     logging.info("Stack deployment to all regions completed.")
 
     logging.info("\n Running Tests with Go!")
-    subprocess.run(['go', '--version'])
     subprocess.run(["go", "test", "-v", "./infrastructure/site_test.go", f"-domain={cloudfront_url}"], check=True)
     logging.info("\n Tests completed successfully!")
 
