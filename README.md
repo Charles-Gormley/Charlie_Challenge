@@ -1,4 +1,4 @@
-# Comcast Interview Prepartion
+# Comcast Interview
 
 ## 1. Infrastructure Assignment
 
