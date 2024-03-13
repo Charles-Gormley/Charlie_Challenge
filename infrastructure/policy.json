@@ -1,0 +1,15 @@
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "AllowCreateResources",
+			"Effect": "Allow",
+			"Action": [
+				"wafv2:*",
+				"s3:CreateBucket",
+				"cloudfront:*"
+			],
+			"Resource": "*"
+		}
+	]
+}
